@@ -1,0 +1,526 @@
+.wrapper {
+    position: relative;
+    background: #FFF;
+    margin-bottom: 25px;
+}
+.menu {
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 2px solid #E5E5E5;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+.menu li {
+    display: inline;
+    margin: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #34AC98;
+    font-size: 13px;
+    padding: 1%;
+}
+.logo {
+    margin: 0 auto;
+}
+.logo img {
+    width: 32%;
+    padding: 5% 32%;
+}
+.socialContent {
+    display: none;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 3%;
+    border-bottom: 2px dashed #dadada;
+}
+.image_slider {
+    list-style: none;
+    width: 400%;
+    position: relative;
+    overflow: hidden;
+    animation: carouselAnimation 20s linear infinite;
+}
+.image_slider li {
+    width: 25%;
+    position: relative;
+    float: left;
+}
+.image_slider li h2 {
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30%;
+    padding-left: 10px;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.image_slider li h3 {
+    width: 100%;
+    font-style: italic;
+    color: #fff;
+    font-size: 12px;
+    bottom: 22%;
+    padding-left: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.image_slider li p {
+    color: #4e9183;
+    font-size: 6px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+.carousel img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+@keyframes carouselAnimation {
+    0%, 24% { left: 0; }
+    25%, 49% { left: -100%; }
+    50%, 74% { left: -200%;}
+    75%, 100% { left: -300%; }
+}
+.ipadNavbar {
+    display: none;
+}
+.ipadNavDesc {
+    display: block;
+}
+.email {
+    padding: 1%;
+    width: 55%;
+    border: 1px solid black;
+}
+.signUpSection {
+    padding: 1% 0;
+}
+.signupImg {
+    display: inline-block;
+    width: 19%;
+}
+.signupText {
+    display: inline-block;
+    margin-top: 0%;
+    font-style: italic;
+    width: 78%;
+    font-size: 12px;
+}
+.clr::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.emailField {
+    margin-top: 0%;
+}
+.subscribe {
+    width: 30%;
+    height: 128%;
+    vertical-align: middle;
+}
+.contentMenu {
+    margin-top: 6%;
+    box-sizing: border-box;
+}
+.cookBook {
+    width: 99%;
+    overflow: hidden;
+    border: 1px solid gray;
+    margin-bottom: 6px;
+}
+.cookBookHeading {
+    color: #34AC98;
+    font-size: 100%;
+}
+.cookBookDisc {
+    font-weight: inherit;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.45em;
+}
+.metaLink {
+    color: #AAA;
+    margin-top: 10px;
+    font-style: italic;
+}
+.read {
+    text-decoration: none;
+    color: #34AC98;
+}
+.ftr {
+    margin-top: 4%;
+    padding-bottom: 6%;
+    padding-top: 4px;
+    border-top: 1px dashed #dadada;
+}
+.footerLinks {
+    float: left;
+    width: 68%;
+    height: 40px;
+}
+.mediaLinks {
+    width: 29%;
+    float: left;
+}
+.mediaLinks a {
+    margin-top: 5%;
+}
+.commonFtrLinks {
+    text-decoration: none;
+    color: #34AC98;
+    font-size: 11px;
+}
+.copyright {
+    color: gray;
+    font-size: 11px;
+}
+.icons {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+.facebook {
+    background: url("../img/mediaicons.jpg") -317px 262px; 
+}
+.facebook:hover {
+    background: url("../img/mediaicons.jpg") -32px 261px;
+}
+.twitter {
+    background: url("../img/mediaicons.jpg") -357px 261px;
+}
+.twitter:hover {
+    background: url("../img/mediaicons.jpg") -642px 262px; 
+}
+.googlePlus {
+    background: url("../img/mediaicons.jpg") -395px 262px;
+}
+.googlePlus:hover {
+    background: url("../img/mediaicons.jpg")  -681px 262px;
+}
+@media only screen and (min-device-width:768px) {
+    .logo {
+        float: left;
+        width: 30%;
+        position: relative;
+        overflow: hidden;
+    }
+    .socialContent {
+        display: none;
+    }
+    .menu {
+        float: right;
+        width: 68%;
+        font-size: 4em;
+        border: 0;
+        padding: 0;
+    }
+    .menu ul {
+        margin-top: 3%;
+    }
+    .menu ul li {
+        margin: 0 2%;
+        padding-left: 1%;
+    }
+    .menu ul li a {
+        font-size: 14px;
+    }
+    .tasteMaker {
+        background: url('../img/htestmaker1.png') no-repeat 35% 10%/54% 49%;
+    }
+    .tasteMaker:hover {
+        background-position: 35% 41%;
+        color: #ff4500;
+    }
+    .blog {
+        background: url('../img/hblog1.png') no-repeat 35% 10%/137% 49%;
+    }
+    .blog:hover {
+        background-position: 31% 31%;
+    }
+    .list {
+        background: url('../img/hpage1.png') no-repeat 74% 10%/54% 49%;
+    }
+    .list:hover {
+        background-position: 74% 26%;
+    }
+    .contribution {
+        background: url('../img/hcontriute1.png') no-repeat 55% 10%/54% 49%;
+    }
+    .contribution:hover {
+        background-position: 55% 32%;
+    }
+    .about {
+        background: url('../img/about.png') no-repeat 35% 10%/91% 49%;
+    }
+    .about:hover {
+        background-position: 35% 28%;
+    }
+    .image_slider li h2 {
+        width: auto;
+        color: #000;
+        font-size: 1.8em;
+        position: absolute;
+        bottom: 29%;
+        padding: 0 1%;
+        font-style: italic;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .image_slider li h3 {
+        width: auto;
+        font-style: italic;
+        color: #fff;
+        font-size: 1.2em;
+        bottom: 19.1%;
+        padding: 1% 1%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+    }
+    .ipadNavbar {
+        display: block;
+        background-color: #eff8f7;
+    }
+    .ipadNavLinks {
+        display: inline-block;
+        text-decoration: none;
+        color: #34AC98;
+        padding: 2% 0px;
+        width: 24.59%;
+        text-align: center;
+    }
+    .ipadNavDesc {
+        display: none;
+    }
+    .picCredit {
+        display: none;
+    }
+    .ipadNavLinks:hover {
+        background-color: #d9efec;
+    }
+    .signupImg {
+        width: 7%;
+        display: inline-block;
+    }
+    .signupText {
+        width: 52%;
+        display: inline-block;
+    }
+    .emailField {
+        width: 38%;
+        display: inline-block;
+        padding-left: 1%;
+    }
+    .contentMenu {
+        display: inline-block;
+        width: 22%;
+        margin: 1%;
+        vertical-align: top;
+    }
+    .mediaLinks {
+        width: 20%;
+        margin-left: 8%;
+    }
+    .icons {
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        margin-left: 7%;
+    }
+    .commonFtrLinks {
+        font-size: 0.8em;
+    }
+    .copyright {
+        font-size: 0.7em;
+    }
+    .facebook {
+        background-image: url("../img/mediaicons.jpg") -317px 262px;
+    }
+    .facebook:hover {
+        background-image: url("../img/mediaicons.jpg") -32px 261px;
+    }
+    .twitter {
+        background-image: url("../img/mediaicons.jpg") -357px 261px;
+    }
+    .twitter:hover {
+        background-image: url("../img/mediaicons.jpg") -642px 262px;
+    }
+    .googlePlus {
+        background-image: url("../img/mediaicons.jpg") -395px 262px;
+    }
+    .googlePlus:hover {
+        background-image: url("../img/mediaicons.jpg") -681px 262px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    header {
+        width: 21%;
+        float: left;
+    }
+    .data {
+        width: 78%;
+        float: right;
+    }
+    .wrapper:after {
+        clear: both;
+        display: table;
+        content: "";
+    }
+    .menu {
+        font-size: 4em;
+        margin-left: 20%;
+        padding-bottom: 37%;
+    }
+    .menu ul {
+        margin-top: 3%;
+    }
+    .menu ul li {
+        font-size: 14px;
+        display: block;
+        margin-left: 6%;
+        padding: 15% 0% 2%;
+    }
+    .menu ul li a {
+        font-size: 1.3em;
+        margin-left: 18%;
+    }
+    .tasteMaker {
+        background: url('../img/htestmaker1.png') no-repeat 0% 103%/17% 64%;
+    }
+    .tasteMaker:hover  {
+        background-position: 4% 103%;
+    }
+    .blog {
+        background: url('../img/hblog1.png') no-repeat 0% 103%/17% 64%;
+    }
+    .blog:hover {
+        background-position: 4% 103%;
+    }
+    .list {
+        background: url('../img/hpage1.png') no-repeat 0% 100%/17% 64%;
+    }
+    .list:hover {
+        background-position: 4% 103%
+    }
+    .contribution {
+        background: url('../img/hcontriute1.png') no-repeat 0% 103%/17% 64%;
+    }
+    .contribution:hover {
+        background-position: 4% 103%
+    }
+    .about {
+        background: url('../img/about.png') no-repeat 0% 103%/17% 64%;
+    }
+    .about:hover {
+        background-position: 4% 103%
+    }
+    .logo {
+        display: none;
+    }
+    .desktopLogo {
+        display: block;
+        height: 141px;
+        background: url('../img/icon.png') no-repeat 51% 66%;
+    }
+    .image_slider li h2 {
+        bottom: 29%;
+        padding: 1% 1%;
+    }
+    .image_slider li h3 {
+        bottom: 20.8%;
+    }
+    .fltRight {
+        right: 0;
+        text-align: right;
+    }
+    .ipadNavDesc {
+        display: block;
+    }
+    .ipadNavLinks {
+        width: 24.69%;
+    }
+    .signupImg {
+        width: 6%;
+        display: inline-block;
+    }
+    .signupImg img {
+        width: 88%;
+        vertical-align: -11px;
+    }
+    .signupText {
+        width: 52%;
+        display: inline-block;
+    }
+    .signupText p {
+        font-size: 15px;
+    }
+    .emailField {
+        width: 38%;
+        display: inline-block;
+        padding-left: 1%;
+    }
+    .contentMenu {
+        display: inline-block;
+        width: 22%;
+        margin: 1%;
+        vertical-align: top;
+    }
+    .socialContent {
+        display: block;
+        padding-left: 15%;
+        width: 75%;
+    }
+    .socialContent section h1 {
+        padding-bottom: 4%;
+        border-bottom: 1px dotted #000;
+    }
+    .twiterlogo a {
+        background: url('../img/tweeter.png') no-repeat 7px 6px/25px 25px;
+        padding-left: 20%;
+        margin-top: 7%;
+    }
+    .fblogo a {
+        background: url('../img/facebook.png') no-repeat 7px 6px/25px 25px;
+        padding-left: 20%;
+    }
+    .btn {
+        width: 141px;
+        height: 17px;
+        background: #FFF no-repeat 6px 6px;
+        display: block;
+        padding: 8px 8px;
+        color: #34AC98;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid #E5E5E5;
+    }
+    .btn:hover{
+        color: #ff4500;
+    }
+    .socialContent section {
+        padding-bottom: 12%;
+    }
+    .fbInvitation {
+        line-height: 20px;
+        font-size: 0.9em;
+        padding-bottom: 5%;
+        font-style: italic;
+        width: 67%;
+        margin-top: 3%;
+    }
+    .mediaLinks{
+        width: 12%;
+        margin-left: 17%;
+    }
+}
